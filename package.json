@@ -1,18 +1,24 @@
 {
-  "name": "manager",
+  "name": "afwf-jar-lib-generator",
   "version": "1.0.0",
   "main": "index.js",
+  "author": "Amos Wong <amoswwj@gmail.com> (https://www.amoshydra.com)",
   "license": "MIT",
+  "homepage": "https://github.com/amoshydra/afwf-jar-lib-generator#readme",
   "dependencies": {
     "archiver": "^3.0.0",
     "axios": "^0.18.0",
     "consola": "^2.3.0",
-    "cross-spawn": "^6.0.5",
     "fs-extra": "^7.0.1",
-    "node-stream-zip": "^1.7.0",
-    "yauzl": "^2.10.0"
+    "node-stream-zip": "^1.7.0"
+  },
+  "scripts": {
+    "build": "node build.js"
   },
   "externalDependencies": {
     "old-watchfaces-url": "http://amazfitcentral.com/wp-content/uploads/2017/08/drbourbon-watchfaces-1.2.26a.apk"
+  },
+  "devDependencies": {
+    "nexe": "^2.0.0-rc.34"
   }
 }
