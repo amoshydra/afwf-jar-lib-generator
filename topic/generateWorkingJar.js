@@ -1,4 +1,5 @@
 const consola = require('consola');
+const path = require('path');
 const fs = require('fs-extra');
 const fromBin = require('../lib/fromBin');
 const dependencies = require('../lib/dependencies');
@@ -30,4 +31,10 @@ module.exports = async () => {
     inputDirectory: fromOutput(packageName),
     outputPath: fromOutput(packageName + '.jar'),
   });
+
+  consola.success({
+    message: `JAR file generated`,
+    badge: true,
+  });
+  consola.success(`Output: ${path.resolve(fromOutput(packageName + '.jar'))}`);
 }
