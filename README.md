@@ -2,7 +2,7 @@
 
 ## Instruction:
 1. Connect Amazfit Stratos to your computer
-2. Open `afwf-jar-lib-generator.exe`
+2. Open `afwf-jar-lib-generator.exe` (Downloaded from [release](https://github.com/amoshydra/afwf-jar-lib-generator/releases/latest))
 3. Look for `./output/HuamiWatchFaces2.jar`
 
 
